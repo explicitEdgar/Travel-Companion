@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4102663 */
+  src: url('@/download/font_4102663_cretifjzbvp/iconfont.woff2?t=1685787514148') format('woff2'),
+       url('@/download/font_4102663_cretifjzbvp/iconfont.woff?t=1685787514148') format('woff'),
+       url('@/download/font_4102663_cretifjzbvp/iconfont.ttf?t=1685787514148') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jubao:before {
+  content: "\e61d";
+}
+
+.icon-xihuan:before {
+  content: "\e61e";
+}
+
+.icon-kaitongfuwu:before {
+  content: "\e61f";
+}
+
+.icon-zhuanruzijin:before {
+  content: "\e620";
+}
+
+.icon-dingwei:before {
+  content: "\e621";
+}
+
+.icon-tianxuangouren:before {
+  content: "\e622";
+}
+
+.icon-jinru:before {
+  content: "\e623";
+}
+

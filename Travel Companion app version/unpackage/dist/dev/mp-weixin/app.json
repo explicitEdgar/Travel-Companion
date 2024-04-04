@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/infor/infor",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/首页线性.png",
+        "selectedIconPath": "static/首页线性.png"
+      },
+      {
+        "text": "会话",
+        "pagePath": "pages/infor/infor",
+        "iconPath": "static/消息线性.png",
+        "selectedIconPath": "static/消息线性.png"
+      },
+      {
+        "text": "信息",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/我的线性.png",
+        "selectedIconPath": "static/我的线性.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

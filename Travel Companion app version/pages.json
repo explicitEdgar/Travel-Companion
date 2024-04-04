@@ -1,0 +1,65 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "伴旅",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/infor/infor",
+			"style": {
+				"navigationBarTitleText": "伴旅",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+	    {
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "伴旅",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none"
+				}
+
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/首页线性.png",
+				"selectedIconPath": "static/首页线性.png"
+			},
+			{
+				"text": "会话",
+				"pagePath": "pages/infor/infor",
+				"iconPath": "static/消息线性.png",
+				"selectedIconPath": "static/消息线性.png"
+			},
+			{
+				"text": "信息",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/我的线性.png",
+				"selectedIconPath": "static/我的线性.png"
+			}
+		]
+	}
+}
